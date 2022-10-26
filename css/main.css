@@ -110,7 +110,42 @@ grid-row-gap: 0px;
   height: 400px;
 }
 .half2 {
-  background-color: green;
-  width:
+  background-color: #F1E8E3;
+  width: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 2fr) 1fr;
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
 
+}
+.half2 div {
+  border: 2px solid red;
+  padding:2em;
+  }
+
+  .half1 img{
+    width: 800px
+  }
+  .box {
+    padding: 4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+.pink {
+  color: #FBA7D9;
+}
+.green {
+  color: #1AB97E
+}
+.btn {
+  padding: 8px 16px;
+  color: white;
+  background-color: #FBA7D9;
+}
+.btn-green {
+  color: white;
+  background-color: #1AB97E;
 }
